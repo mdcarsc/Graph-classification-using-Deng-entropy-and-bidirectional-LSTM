@@ -14,7 +14,7 @@ The resources are classified in the following folders:
 To replicate the results of experiments presented in the paper (*Graph classification using Deng entropy and bidirectional long short-term memory*), you need to download all the resources and follow the following steps:
 
 1. Open the Matlab source code that is found in [`code\ClassificationDEbLSTM.m`](./Code/ClassificationDEbLSTM.m) file.
-2. In line 7 you can modify the dataset file name to load,  wich you can locate in the data folder.
+2. In line 7, you can modify the dataset file name to load, which you can locate in the [data folder](./Data).
 3. Load the data setfile in matlab.
 4. Run the code 
 
