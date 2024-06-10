@@ -15,7 +15,7 @@ To replicate the results of experiments presented in the paper (*Graph classific
 
 1. Open the Matlab source code that is found in [`code\ClassificationDEbLSTM.m`](./Code/ClassificationDEbLSTM.m) file.
 2. In line 7, you can modify the dataset file name to load, which you can locate in the [data folder](./Data).
-3. Load the data setfile in matlab.
+3. Load the dataset in Matlab.
 4. Run the code 
 
 *Note
