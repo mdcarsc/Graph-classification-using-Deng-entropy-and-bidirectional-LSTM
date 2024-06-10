@@ -18,7 +18,9 @@ To replicate the results of experiments presented in the paper (*Graph classific
 3. Load the dataset in Matlab.
 4. Run the code 
 
-*Note
- If you prefer to change the network configuration data, you need to uncomment the lines (13 - 22) so then change the values, and comment out the lines (7 - 11) in ClassificationDEbLSTM.m file.
+__Note__
+ If you would like to change the network configuration data, you need to uncomment the lines (13 - 22), make the modifications, and then comment out the lines (7 - 11) in the [`ClassificationDEbLSTM.m` file](./Code/ClassificationDEbLSTM.m).
 
- In the file "code\SPAWNER2.m" is provided a simplified algorithm to solve the problem of low accuracy with small graph datasets by generating synthetic data based on real data. The algorithm is based on the one described by Krzysztof-Kamycki (KK), Kapuscinski, and Mariusz (KM).
+ The file [`code\SPAWNER2.m`](./Codes/SPAWNER2.m) contains a simplified algorithm to solve the problem of low accuracy with small graph datasets by generating synthetic data based on real data. The algorithm is based on the work of Krzysztof-Kamycki, Kapuscinski, and Mariusz [1].
+
+ [1] Kamycki, K., Kapuscinski, T., & Oszust, M. (2019). Data augmentation with suboptimal warping for time-series classification. *Sensors, 20*(1), 98.
