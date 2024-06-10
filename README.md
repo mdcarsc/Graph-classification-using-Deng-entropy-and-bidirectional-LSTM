@@ -7,9 +7,9 @@ In this repository, you will find the resources to reproduce and verify the expe
 
 The resources are classified in the following folders:
 
-* [__Code__](./network): Contains the Matlab source code.
-* [__Data__](./network): Containing TUDA dataset (Deng entropy of graphs).
-* [__Network__](./network): There are synthetic network files such as Barabasi--Albert (BA), Song, Havlin, and Makse (SHM).
+* [__Code__](./Code): Contains the Matlab source code.
+* [__Data__](./Data): Containing TUDA dataset (Deng entropy of graphs).
+* [__Networks__](./Networks): There are synthetic network files such as Barabasi--Albert (BA), Song, Havlin, and Makse (SHM).
 
 To replicate the results of experiments presented on "Graph classification Deng entropy" you need to download all the resources and follow the following steps:
 
