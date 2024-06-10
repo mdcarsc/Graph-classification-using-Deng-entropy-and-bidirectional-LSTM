@@ -11,9 +11,9 @@ The resources are classified in the following folders:
 * [__Data__](./Data): Containing TUDA dataset (Deng entropy of graphs).
 * [__Networks__](./Networks): There are synthetic network files such as Barabasi--Albert (BA), Song, Havlin, and Makse (SHM).
 
-To replicate the results of experiments presented on "Graph classification Deng entropy" you need to download all the resources and follow the following steps:
+To replicate the results of experiments presented in the paper (*Graph classification using Deng entropy and bidirectional long short-term memory*), you need to download all the resources and follow the following steps:
 
-1. Open the matlab source code that is found in "code\ClassificationDEbLSTM.m" file.
+1. Open the Matlab source code that is found in [`code\ClassificationDEbLSTM.m`](./Code/ClassificationDEbLSTM.m) file.
 2. In line 7 you can modify the dataset file name to load,  wich you can locate in the data folder.
 3. Load the data setfile in matlab.
 4. Run the code 
